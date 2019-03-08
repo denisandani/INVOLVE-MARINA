@@ -189,9 +189,9 @@ p {
 @media screen and (max-width: 481px) {
     .hero-banner4 {
         background: #fff url('../images/mobile/7-bg.png') top no-repeat;
-        background-size: contain;
+        background-size: 100%;
         width: 100%;
-        height: auto;
+        height: 400px;
         position: relative;
     }
 }
@@ -288,24 +288,21 @@ p {
 /*misc*/
 
 .img-s-0 {
-    position: relative;
-    left: 20%;
-    bottom:410px;
-    width:55%;
+    left: 35%;
+    top:8%;
+    width:30%;
 }
 
 .img-s-1 {
-    position: relative;
-    right: -20%;
-    top: -400px;
-    width: 55%;
+    left:35%;
+    top:25%;
+    width: 30%;
 }
 
 .img-s-2 {
-    position: relative;
     left: 28%;
-    bottom: -450px;
-    width: 45%
+    bottom: 0%;
+    width: 45%;
 }
 
 .img-s-3 {
@@ -351,41 +348,36 @@ p {
 }
 
 .img-s-9 {
-    position: relative;
-    left: 10%;
-    bottom: -300px;
-    width: auto;
+    left: 15%;
+    width:40%;
+    bottom: 0%;
 }
 
 .img-s-10 {
-    position: relative;
-    bottom: -340px;
     width: 90%;
 }
 
 .text-s-10 {
-    position: relative;
-    bottom: -340px;
 }
 
 .img-s-0m {
     position: absolute;
     right: 15%;
-    margin-top: -55%;
+    top:15%;
     width: 70%;
 }
 
 .img-s-1m {
     position: absolute;
-    margin-top: -38%;
+    top:30%;
     left: 15%;
     width: 75%;
 }
 
 .img-s-2m {
-    position: relative;
+    position: absolute;
     left: 0%;
-    bottom:-250px;
+    bottom:0%;
 }
 
 .img-s-3m {
@@ -839,6 +831,10 @@ p {
 .pos-relative {
     position: relative;
 }
+.pos-absolute {
+    position: absolute;
+}
+
 
 .absolute-right {
     position: absolute;
@@ -1231,6 +1227,12 @@ p {
 .question{
     font-weight:bold;
     font-size:14pt;
+}
+.hero-banner4-desc{
+    position:absolute;
+    right:15%;
+    top:40%;
+    width:30%;
 }
 
 /*!misc*/
