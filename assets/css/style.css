@@ -132,6 +132,7 @@ p {
         width: 100%;
         height: auto;
         padding-top: 50px;
+        padding-bottom:5%;
     }
 }
 
@@ -142,6 +143,7 @@ p {
         width: 100%;
         height: auto;
         padding-top: 65px;
+        padding-bottom:5%;
     }
 }
 
@@ -1050,7 +1052,7 @@ p {
 
 @media screen and (min-width: 481px) {
     .size-img8 img {
-        width: 1%%;
+        width: 1%;
     }
 }
 
@@ -1214,6 +1216,16 @@ p {
 .img-res {
     max-width: 100%;
 }
-
+.box-quiz{
+    background-image: url('../images/kotak.png');
+    padding: 5%;
+    border-radius: 10px;
+    border-color: black;
+    border-style: dashed;
+    border-radius:10px;
+}
+.margin-top-20{
+    margin-top:5%;
+}
 
 /*!misc*/
