@@ -1223,6 +1223,7 @@ p {
     border-color: black;
     border-style: dashed;
     border-radius:10px;
+    margin-bottom:20px;
 }
 .margin-top-20{
     margin-top:5%;
