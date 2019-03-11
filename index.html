@@ -56,23 +56,17 @@
 </head>
 
 <body>
-    <section class="hero-banner">
-        <div class="hero-image">
-            <img src="assets/images/1-cewek.png" class="img-s-2 responsive-img rubberBand wow animated hide-on-small-only">
+    <section class="hero-banner pos-relative">
+            <img src="assets/images/1-judul-1.png" class="img-s-0 pos-absolute responsive-img animated wow bounceInDown hide-on-small-only">
+            <img src="assets/images/1-judul-2.png" class="img-s-1 pos-absolute responsive-img animated wow flipInX hide-on-small-only">
 
 
-            <img src="assets/images/mobile/1-cewek.png" class="img-s-2m responsive-img rubberBand wow animated hide-on-large-only">
-        </div>
-        <div class="container">
-            <div class="col m12 s12 pos-relative">
-                <img src="assets/images/1-judul-1.png" class="img-s-0 responsive-img responsive-img animated wow bounceInDown hide-on-small-only">
-                <img src="assets/images/1-judul-2.png" class="img-s-1 responsive-img animated wow flipInX hide-on-small-only">
-
-
-                <img src="assets/images/mobile/1-judul-1.png" class="img-s-0m animated wow bounceInDown hide-on-large-only">
-                <img src="assets/images/mobile/1-judul-2.png" class="img-s-1m animated wow flipInX hide-on-large-only">
-            </div>
-        </div>
+            <img src="assets/images/mobile/1-judul-1.png" class="img-s-0m animated wow bounceInDown hide-on-large-only">
+            <img src="assets/images/mobile/1-judul-2.png" class="img-s-1m animated wow flipInX hide-on-large-only">
+            <img src="assets/images/1-cewek.png" class="img-s-2 pos-absolute responsive-img rubberBand wow animated hide-on-small-only">
+    
+    
+            <img src="assets/images/mobile/1-cewek.png" class="img-s-2m pos-absolute responsive-img rubberBand wow animated hide-on-large-only">
     </section>
 
     <section class="s-two">
@@ -139,7 +133,67 @@
 
             <img src="assets/images/mobile/4-mtbi.png" class="padat padtom responsive-img animated wow flipInY hide-on-large-only">
 
-            <p>QUIZ</p>
+            <div class="box-quiz animated wow fadeInUp">
+                <div class="row">
+                    <form id="kuis">
+                    <div class="col l12 m12 s12">
+                        <p><span class="judul-quiz">Pilih satu saja dari beberapa pilihan ini, dan yang kamu pilih menunjukkan tipe kepribadian MBTI-mu!</span></p><br>
+                    </div>
+                    <div class="col l6 s12 m12">
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt1" name="kuis_1" value="0"><label for="opt1"><span class="grey-text darken-4">Suka dengerin curhatan orang lain. </span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt2" name="kuis_1" value="1"><label for="opt2"><span class="grey-text darken-4">Percaya segala sesuatu mungkin terjadi. </span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt3" name="kuis_1" value="2"><label for="opt3"><span class="grey-text darken-4">Hidup selalu penuh rencana dan tujuan.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt4" name="kuis_1" value="3"><label for="opt4"><span class="grey-text darken-4">Suka memecahkan masalah menantang. </span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt5" name="kuis_1" value="4"><label for="opt5"><span class="grey-text darken-4">Enggak mau terlibat konflik.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt6" name="kuis_1" value="5"><label for="opt6"><span class="grey-text darken-4">Punya banyak sahabat. </span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt7" name="kuis_1" value="6"><label for="opt7"><span class="grey-text darken-4">Fakta enggak pernah bohong. </span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt8" name="kuis_1" value="7"><label for="opt8"><span class="grey-text darken-4">Suka dengan hal yang baru .</span></label> </div>
+                        </div>
+                    </div>
+                    <div class="col l6 s12 m12">
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt9" name="kuis_1" value="8"><label for="opt9"><span class="grey-text darken-4">Bisa jadi inspirasi orang lain.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt10" name="kuis_1" value="9"><label for="opt10"><span class="grey-text darken-4">Setia pada satu hal.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt11" name="kuis_1" value="10"><label for="opt11"><span class="grey-text darken-4">Suka berimajinasi.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt12" name="kuis_1" value="11"><label for="opt12"><span class="grey-text darken-4">Enggak pernah berantem dengan teman.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt13" name="kuis_1" value="12"><label for="opt13"><span class="grey-text darken-4">Selalu ada buat orang yang disayang.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt14" name="kuis_1" value="13"><label for="opt14"><span class="grey-text darken-4">Orang paling kreatif di kelas.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt15" name="kuis_1" value="14"><label for="opt15"><span class="grey-text darken-4">Selalu diandalkan sebagai tempat curhat.</span></label> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m12 s12"><input onchange="get_answer_1()" type="radio" id="opt16" name="kuis_1" value="15"><label for="opt16"><span class="grey-text darken-4">Hal rumit sangat menantang bagiku.</span></label> </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -203,19 +257,15 @@
         </div>
     </section>
 
-    <section class="hero-banner4">
+    <section class="hero-banner4 pos-relative">
+        <img src="assets/images/7-cewek.png" class="img-s-9 pos-absolute responsive-img animated wow bounceInDown hide-on-small-only">
+
+        <img src="assets/images/mobile/7-cewek.png" class="img-s-9m animated wow bounceInDown hide-on-large-only">
         <div class="container">
-            <div class="row">
-                <div class="col l6 m6 s12">
-                    <img src="assets/images/7-cewek.png" class="img-s-9 responsive-img animated wow bounceInDown hide-on-small-only">
-
-                    <img src="assets/images/mobile/7-cewek.png" class="img-s-9m animated wow bounceInDown hide-on-large-only">
-                </div>
-
-                <div class="col l6 m6 s12">
+                <div class="hero-banner4-desc">
                     <img src="assets/images/7-judul.png" class="img-s-10 responsive-img animated wow bounceInDown hide-on-small-only">
 
-                    <img src="assets/images/mobile/7-judul.png" class="img-s-10m animated wow bounceInDown hide-on-large-only">
+                    <img src="assets/images/mobile/7-judul.png" class="img-s-10m responsive-img animated wow bounceInDown hide-on-large-only">
 
                     <p class="text-s-10 animated wow bounceInDown hide-on-small-only">Kalau kamu suka nulis, di pelajaran Bahasa Indonesia jangan pernah bolos! Lanjut di kuliah, pilih jurusan jurnalistik atau sastra, dan selanjutnya pilih profesi yang kamu suka dan sesuai bakatmu.
                     </p>
@@ -224,7 +274,6 @@
                     </p>
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="s-five">
@@ -242,8 +291,8 @@
                 Menurut Tasya Kamila, program ini dilakukan untuk membantu menemukan ‘Apa sih <i>passion</i> yang kita punya? Dan bagaimana caranya untuk meraihnya’. Kita harus bisa mengembangkan potensi yang ada di dalam diri kita.
             </p>
             <br>
-
-            <div class="col m12 s12">
+            <div class="row">
+                <div class="col m12 s12">
                     <div class=" animated wow swing">
                         <div class="img-testimoni-ca"><img src="assets/images/caitlin-1.png" class="img img-responsive"></div>
                         
@@ -256,6 +305,82 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <form id="kuis">
+            <div class="row margin-top-20">
+                <div class="col l12">
+                    <p><span class="judul-quiz">Pilih jawaban dari 3 pertanyaan di bawah ini, lalu jumlahkan hasilnya dan lihat skor-mu buat tahu sejauh mana kamu kenal passion dan rekomendasi pekerjaan kamu, girls!</span></p><br>
+                </div>
+            </div>
+            <div class="row margin-top-20">
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">Saat ada waktu senggang, kamu seringnya? </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_1_1" name="kuis_2_1" value="40"><label for="opt2_1_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">membaca novel </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_1_2" name="kuis_2_1" value="10"><label for="opt2_1_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">mengerjakan PR Matematika</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_1_3" name="kuis_2_1" value="30"><label for="opt2_1_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Menonton TV </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_1_4" name="kuis_2_1" value="20"><label for="opt2_1_4"><span class="grey-text darken-4">D.</span></label> </div>
+                            <div class="col m10 s10">Berolahraga  </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">Menurutmu, kamu itu gimana sih </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_2_1" name="kuis_2_2" value="20"><label for="opt2_2_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Percaya Diri tampil di depan umum  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_2_2" name="kuis_2_2" value="30"><label for="opt2_2_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Jadi inspirasi buat sekitar </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_2_3" name="kuis_2_2" value="40"><label for="opt2_2_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Tidak mau jadi pusat perhatian  </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_2_4" name="kuis_2_2" value="10"><label for="opt2_2_4"><span class="grey-text darken-4">D.</span></label> </div>
+                            <div class="col m10 s10">Mengikuti Aturan   </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l6 m12 s12 offset-l3">
+                    <div class="box-quiz">
+                        <p class="question">Kalau weekend kamu seringnya ngapain?  </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_3_1" name="kuis_2_3" value="30"><label for="opt2_3_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Ikut event-event tertentu </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_3_2" name="kuis_2_3" value="20"><label for="opt2_3_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Baksos </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_3_3" name="kuis_2_3" value="10"><label for="opt2_3_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Piknik dadakan </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_2()" type="radio" id="opt2_3_4" name="kuis_2_3" value="40"><label for="opt2_3_4"><span class="grey-text darken-4">D.</span></label> </div>
+                            <div class="col m10 s10">Beres-beres rumah  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
+
         </div>
     </section>
     <section class="s-five-a">
@@ -289,10 +414,168 @@
             </div>
 
             <p class="padat judul-quiz animated wow fadeInUp">Cari tahu jenis kulitmu lewat tes berikut ini, yuk!</p>
-            <p>QUIZ</p>
+            
+            <form id="kuis">
+            <div class="row margin-top-20">
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">1.	Seperti apa kondisi kulit wajah setelah bangun tidur?
+                            </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_1_1" name="kuis_3_1" value="a"><label for="opt3_1_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Agak terasa kaku dan kencang</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_1_2" name="kuis_3_1" value="b"><label for="opt3_1_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Lembap dan kenyal!</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_1_3" name="kuis_3_1" value="c"><label for="opt3_1_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Agak berminyak, apalagi di daerah T zone </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">2. Kondisi kulit di siang hari menjadi?</p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_2_1" name="kuis_3_2" value="a"><label for="opt3_2_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Makin kering dan kasar. Harus sering-sering pake face mist!</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_2_2" name="kuis_3_2" value="b"><label for="opt3_2_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Paling suka cuci muka biar makin segar</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_2_3" name="kuis_3_2" value="c"><label for="opt3_2_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Makin berminyak. Blotting paper! </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">3. Yang dirasakan setelah mencuci muka?</p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_3_1" name="kuis_3_3" value="a"><label for="opt3_3_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Lebih kencang dan berkerut</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_3_2" name="kuis_3_3" value="b"><label for="opt3_3_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Lebih lembap dan bersih  dong pastinya!</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_3_3" name="kuis_3_3" value="c"><label for="opt3_3_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Lebih segar dan rasanya ringan banget! </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l6 m12 s12">
+                    <div class="box-quiz">
+                        <p class="question">4. Produk skincare kayak apa yang sering dicari?</p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_4_1" name="kuis_3_4" value="a"><label for="opt3_4_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Yang bisa bikin kulit wajah jadi lembap</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_4_2" name="kuis_3_4" value="b"><label for="opt3_4_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Yang bisa bikin kulit jadi lebih cerah dan glowing!</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_4_3" name="kuis_3_4" value="c"><label for="opt3_4_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Yang bisa mengontrol dan mengurangi produksi sebum </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l6 m12 s12 offset-l3">
+                    <div class="box-quiz">
+                        <p class="question">5.	Saat mengaplikasikan makeup...</p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_5_1" name="kuis_3_5" value="a"><label for="opt3_5_1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Retak dan makeup kurang menempel</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_5_2" name="kuis_3_5" value="b"><label for="opt3_5_2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Makeup menempel sempurna, on point!</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_3()" type="radio" id="opt3_5_3" name="kuis_3_5" value="c"><label for="opt3_5_3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Mudah luntur, hiks...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
 
             <p class="padat animated wow fadeInUp"> Untuk tahu tentang diri kita lebih dalam lagi, enggak cukup kalau kita hanya tahu tentang tipe kulit, tapi kita juga harus tahu tentang potongan rambut yang tepat untuk kita. </p>
 
+            <p class="padat judul-quiz animated wow fadeInUp">Sesuaikan model rambut yang cocok buat kamu sesuai dengan bentuk wajah!</p>
+            
+            <form id="kuis">
+            <div class="row margin-top-20">
+                <div class="col l4 offset-l2 s12 m12">
+                    <div class="box-quiz">
+                        <p class="question">Bentuk Wajah : </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah1" name="kuis_4_1" value="1"><label for="wajah1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Oval</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah2" name="kuis_4_1" value="2"><label for="wajah2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Bulat</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah3" name="kuis_4_1" value="3"><label for="wajah3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Kotak</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah4" name="kuis_4_1" value="4"><label for="wajah4"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Hati</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah5" name="kuis_4_1" value="5"><label for="wajah5"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Diamond</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="wajah6" name="kuis_4_1" value="6"><label for="wajah6"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Oblong / Bulat Panjang</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l4 s12 m12">
+                    <div class="box-quiz">
+                        <p class="question">Jenis Rambut : </p>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut1" name="kuis_4_2" value="1"><label for="rambut1"><span class="grey-text darken-4">A.</span></label> </div>
+                            <div class="col m10 s10">Lurus & tipis</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut2" name="kuis_4_2" value="2"><label for="rambut2"><span class="grey-text darken-4">B.</span></label> </div>
+                            <div class="col m10 s10">Lurus & tebal</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut3" name="kuis_4_2" value="3"><label for="rambut3"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Bergelombang & tipis</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut4" name="kuis_4_2" value="4"><label for="rambut4"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Bergelombang & tebal</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut5" name="kuis_4_2" value="5"><label for="rambut5"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Keriting & tipis</div>
+                        </div>
+                        <div class="row">
+                            <div class="col m2 s2"><input onchange="get_answer_4()" type="radio" id="rambut6" name="kuis_4_2" value="6"><label for="rambut6"><span class="grey-text darken-4">C.</span></label> </div>
+                            <div class="col m10 s10">Keriting & tebal</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </form>
             <div class="row">
                 <div class="col l6 m6 s12">
                     <p class="padat animated wow bounceInDown"><i>Fyi,</i> bagaimana pun model rambut kita, penting banget buat menjaga kesehatan rambut. Apalagi kalau rambut kita gampang rontok atau lepek, pasti bikin mood enggak enak seharian. Pakai <span class="text-ungu">Marina Hair Essence Mist Volumizing</span> dan <span class="text-ungu">Smoothing</span> biar makin percaya diri dengan penampilan kita!
@@ -318,7 +601,122 @@
                 <img src="assets/images/8-infog-1.png" class="size-img14 responsive-img animated wow flipInY">
             </div>
             
-                <div class="col m12 s12 ">
+            <p class="padat judul-quiz animated wow fadeInUp">Pacar suka mengubah dirimu, dan kamu menurutinya atau enggak?</p>
+            
+            <form id="kuis">
+                <div class="row margin-top-20">
+                    <div class="col l6 s12 m12">
+                        <div class="box-quiz">
+                            <p class="question">1. Mau nge-date, pacar suka kita pakai baju yang gimana? </p>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_1_1" name="kuis_5_1" value="a"><label for="opt5_1_1"><span class="grey-text darken-4">A.</span></label> </div>
+                                <div class="col m10 s10">Gimana aja dia suka, kok </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_1_2" name="kuis_5_1" value="b"><label for="opt5_1_2"><span class="grey-text darken-4">B.</span></label> </div>
+                                <div class="col m10 s10">Kadang suka kadang enggak, tapi semua terserah aku</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_1_3" name="kuis_5_1" value="c"><label for="opt5_1_3"><span class="grey-text darken-4">C.</span></label> </div>
+                                <div class="col m10 s10">Dia kasih saran, aku kepikiran. Kadang jadi nurutin </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_1_4" name="kuis_5_1" value="d"><label for="opt5_1_4"><span class="grey-text darken-4">D.</span></label> </div>
+                                <div class="col m10 s10">Karena tahu dia enggak suka aku pakai baju tertentu, aku jadi enggak pernah berani pakai baju itu lagi!  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l6 s12 m12">
+                        <div class="box-quiz">
+                            <p class="question">2. Mau ganti model rambut, tanggapan pacar?</p>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_2_1" name="kuis_5_2" value="a"><label for="opt5_2_1"><span class="grey-text darken-4">A.</span></label> </div>
+                                <div class="col m10 s10">Terserah aku model rambut gimana asal aku nyaman </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_2_2" name="kuis_5_2" value="b"><label for="opt5_2_2"><span class="grey-text darken-4">B.</span></label> </div>
+                                <div class="col m10 s10">Ada pilihan yang dia kasih. Aku pertimbangin</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_2_3" name="kuis_5_2" value="c"><label for="opt5_2_3"><span class="grey-text darken-4">C.</span></label> </div>
+                                <div class="col m10 s10">Dia ngasih beberapa saran, aku tinggal pilih mana yang terbaik </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_2_4" name="kuis_5_2" value="d"><label for="opt5_2_4"><span class="grey-text darken-4">D.</span></label> </div>
+                                <div class="col m10 s10">Dia ngasih tahu apa yang sesuai dengan rambutku dan melarang kalau model rambut yang kupilih enggak sesuai dengan kemauannya  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 s12 m12">
+                        <div class="box-quiz">
+                            <p class="question">3. Ups! Ada muncul jerawat di wajah. Apa yang bakal dia katakan soal jerawat kita, ya?</p>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_3_1" name="kuis_5_3" value="a"><label for="opt5_3_1"><span class="grey-text darken-4">A.</span></label> </div>
+                                <div class="col m10 s10">Dia bilang, jerawat itu hal yang wajar dan aku setuju </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_3_2" name="kuis_5_3" value="b"><label for="opt5_3_2"><span class="grey-text darken-4">B.</span></label> </div>
+                                <div class="col m10 s10">Dia malah ngejahilin aku, tapi aku tetap pede</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_3_3" name="kuis_5_3" value="c"><label for="opt5_3_3"><span class="grey-text darken-4">C.</span></label> </div>
+                                <div class="col m10 s10">Dia ngasih saran dan aku kepikiran buat ngikutin dia </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_3_4" name="kuis_5_3" value="d"><label for="opt5_3_4"><span class="grey-text darken-4">D.</span></label> </div>
+                                <div class="col m10 s10">Dia nyuruh aku nutupin jerawat pakai makeu. Aku takut dia malu sama penampilanku!  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l6 s12 m12">
+                        <div class="box-quiz">
+                            <p class="question">4. Kita merasa badan gendutan! Tanggapan pacar?</p>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_4_1" name="kuis_5_4" value="a"><label for="opt5_4_1"><span class="grey-text darken-4">A.</span></label> </div>
+                                <div class="col m10 s10">Berat badanku yang bertambah malah bikin dia merasa aku ini makin imut </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_4_2" name="kuis_5_4" value="b"><label for="opt5_4_2"><span class="grey-text darken-4">B.</span></label> </div>
+                                <div class="col m10 s10">Dia ketawa dan jahilin aku pas lihat aku gendutan, tapi aku senang dengan tanggapan dia!</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_4_3" name="kuis_5_4" value="c"><label for="opt5_4_3"><span class="grey-text darken-4">C.</span></label> </div>
+                                <div class="col m10 s10">Sering banget bercanda tentang berat badanku dan ini bikin aku jadi malu.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_4_4" name="kuis_5_4" value="d"><label for="opt5_4_4"><span class="grey-text darken-4">D.</span></label> </div>
+                                <div class="col m10 s10">Dia bakalan langsung ngelarang aku makan banyak. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col l6 s12 m12 offset-l3">
+                        <div class="box-quiz">
+                            <p class="question">Pacar ngajak kita ketemu sama keluarganya, pacar bilang...</p>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_5_1" name="kuis_5_5" value="a"><label for="opt5_5_1"><span class="grey-text darken-4">A.</span></label> </div>
+                                <div class="col m10 s10">Santai saja, kamu menawan kok </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_5_2" name="kuis_5_5" value="b"><label for="opt5_5_2"><span class="grey-text darken-4">B.</span></label> </div>
+                                <div class="col m10 s10">Kamu pakai dress panjang yang biasa kamu pakai, Ibu aku kayaknya suka kalau kamu pakai itu</div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_5_3" name="kuis_5_5" value="c"><label for="opt5_5_3"><span class="grey-text darken-4">C.</span></label> </div>
+                                <div class="col m10 s10">Jangan pakai baju yang terlalu ngetat, kita bukan lagi nge-date biasa </div>
+                            </div>
+                            <div class="row">
+                                <div class="col m2 s2"><input onchange="get_answer_5()" type="radio" id="opt5_5_4" name="kuis_5_5" value="d"><label for="opt5_5_4"><span class="grey-text darken-4">D.</span></label> </div>
+                                <div class="col m10 s10">Baju dan sepatu aku beliin ya buat ketemu sama keluargaku  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                <div class="col m12 s12  margin-top-20">
                     <div class=" animated wow swing">
                         <div class="img-testimoni-ve"><img src="assets/images/vera-1.png" class="img img-responsive"></div>
                         <div class="bg-testimoni-ve">
