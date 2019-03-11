@@ -191,11 +191,7 @@ p {
         background: #fff url('../images/mobile/7-bg.png') top no-repeat;
         background-size: 100%;
         width: 100%;
-<<<<<<< HEAD
         height: 100vh;
-=======
-        height: 400px;
->>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
         position: relative;
     }
 }
@@ -331,50 +327,40 @@ p {
 }
 
 .img-s-6 {
-    position: relative;
-    left: 25%;
-    bottom: -210px;
-    width: 55%;
+    margin-left: 25%;
+    margin-top: 12%;
+    width: 45%;
 }
 
 .img-s-7 {
-    position: relative;
-    left: 18%;
-    bottom: -200px;
-    width: 65%;
+    margin-left: 20%;
+    top: 5%;
+    width: 55%;
 }
 
 .img-s-8 {
-    position: relative;
+    position: absolute;
     left: 29%;
     bottom: 0%;
-    width: 45%;
+    width: 40%;
 }
 
 .img-s-9 {
     left: 15%;
-<<<<<<< HEAD
     width:30%;
-=======
-    width:40%;
->>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
     bottom: 0%;
 }
 
 .img-s-10 {
-<<<<<<< HEAD
-    width: 20%;
+    left: 25%;
+    margin-top: 40%;
+}
 }
 
 .text-s-10 {
     position: relative;
-    bottom: 0%;
-=======
-    width: 90%;
-}
-
-.text-s-10 {
->>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
+    left: 0%;
+    margin-top: 30%;
 }
 
 .img-s-0m {
@@ -1245,26 +1231,19 @@ p {
     font-weight:bold;
     font-size:14pt;
 }
-<<<<<<< HEAD
 @media screen and (min-width: 481px)}
-=======
->>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
-.hero-banner4-desc{
-    position:absolute;
-    right:15%;
-    top:40%;
-    width:30%;
-<<<<<<< HEAD
+.hero-banner4-desc img{
+    position:relative;
+    right:55%;
+    width:50%;
     }
 }
 
 @media screen and (max-width: 481px)}
-.hero-banner4-desc{
+.hero-banner4-desc img{
     right:0%;
     top:20%;
     }
-=======
->>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
 }
 
 /*!misc*/
