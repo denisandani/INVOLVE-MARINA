@@ -211,7 +211,7 @@ p {
         background-size: cover;
         width: 100%;
         height: auto;
-        padding-top: 65px;
+        padding-top: 15px;
     }
 }
 
@@ -407,20 +407,20 @@ p {
 .img-s-6m {
     position: absolute;
     right: 10%;
-    margin-top: 45%;
+    margin-top: 30%;
     width: 70%;
 }
 
 .img-s-7m {
     position: absolute;
-    margin-top: 48%;
+    margin-top: 33%;
     left: 10%;
     width: 85%;
 }
 
 .img-s-8m {
     position: absolute;
-    left: 0%;
+    left: 10%;
     bottom:0%;
     width: 75%;
 }
@@ -505,7 +505,7 @@ p {
     }
 
     .img-testimoni-ve img {
-        width: 40%;
+        width: 60%;
     }
 
     .bg-testimoni-ve {
@@ -567,7 +567,7 @@ p {
     }
 
     .img-testimoni-ve img {
-        width: 50%;
+        width: 60%;
     }
 
     .bg-testimoni-ve {
@@ -629,7 +629,7 @@ p {
     }
 
     .img-testimoni-el img {
-        width: 50%;
+        width: 60%;
     }
 
     .bg-testimoni-el {
@@ -691,7 +691,7 @@ p {
     }
 
     .img-testimoni-ca img {
-        width: 50%;
+        width: 60%;
     }
 
     .bg-testimoni-ca {
@@ -755,7 +755,7 @@ p {
     }
 
     .img-testimoni-pu img {
-        width: 50%;
+        width: 60%;
     }
 
     .bg-testimoni-pu {
@@ -806,7 +806,7 @@ p {
     }
 
     .img-testimoni-tangan img {
-        width: 50%;
+        width: 60%;
     }
     
     .bg-testimoni-tangan {
