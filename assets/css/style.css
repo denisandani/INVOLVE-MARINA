@@ -191,7 +191,11 @@ p {
         background: #fff url('../images/mobile/7-bg.png') top no-repeat;
         background-size: 100%;
         width: 100%;
+<<<<<<< HEAD
         height: 100vh;
+=======
+        height: 400px;
+>>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
         position: relative;
     }
 }
@@ -349,17 +353,28 @@ p {
 
 .img-s-9 {
     left: 15%;
+<<<<<<< HEAD
     width:30%;
+=======
+    width:40%;
+>>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
     bottom: 0%;
 }
 
 .img-s-10 {
+<<<<<<< HEAD
     width: 20%;
 }
 
 .text-s-10 {
     position: relative;
     bottom: 0%;
+=======
+    width: 90%;
+}
+
+.text-s-10 {
+>>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
 }
 
 .img-s-0m {
@@ -1230,12 +1245,16 @@ p {
     font-weight:bold;
     font-size:14pt;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 481px)}
+=======
+>>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
 .hero-banner4-desc{
     position:absolute;
     right:15%;
     top:40%;
     width:30%;
+<<<<<<< HEAD
     }
 }
 
@@ -1244,6 +1263,8 @@ p {
     right:0%;
     top:20%;
     }
+=======
+>>>>>>> 0bced0a97e61b293aa6c10bb76152d8d9a0c0b9c
 }
 
 /*!misc*/
