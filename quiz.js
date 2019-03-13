@@ -89,7 +89,7 @@ function get_answer_4(){
         }
         console.log(img);
         // $('#quiz4').html(img);
-        $('#quiz4').html(img);
+        $('#quiz4-src').html(img);
         $('#quiz4').modal('open');
     }
 }
