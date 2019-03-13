@@ -351,16 +351,11 @@ p {
     bottom: 0%;
 }
 
-.img-s-10 {
-    left: 25%;
-    margin-top: 40%;
-}
-}
+
 
 .text-s-10 {
     position: relative;
     left: 0%;
-    margin-top: 30%;
 }
 
 .img-s-0m {
@@ -563,7 +558,6 @@ p {
 }
      .img-testimoni-ve {
         position: relative;
-        top: 140px;
         margin-left: 90px;
     }
 
@@ -579,6 +573,7 @@ p {
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
+        margin-top: -140px;
     }
 }
 
@@ -625,7 +620,6 @@ p {
 }
      .img-testimoni-el {
         position: relative;
-        top: 140px;
         margin-left: 90px;
     }
 
@@ -641,6 +635,7 @@ p {
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
+        margin-top: -140px;
     }
 }
 
@@ -687,7 +682,6 @@ p {
 }
      .img-testimoni-ca {
         position: relative;
-        top: 140px;
         margin-left: 90px;
     }
 
@@ -703,6 +697,7 @@ p {
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
+        margin-top: -140px;
     }
 }
 
@@ -751,7 +746,6 @@ p {
 }
      .img-testimoni-pu {
         position: relative;
-        top: 140px;
         margin-left: 90px;
     }
 
@@ -767,6 +761,7 @@ p {
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
+        margin-top: -140px;
     }
 }
 
@@ -1231,19 +1226,34 @@ p {
     font-weight:bold;
     font-size:14pt;
 }
-@media screen and (min-width: 481px)}
-.hero-banner4-desc img{
-    position:relative;
-    right:55%;
-    width:50%;
+@media screen and (min-width: 481px){
+.hero-banner4-desc{
+    position:absolute;
+    right:15%;
+    top:40%;
+    width:40%;
     }
 }
 
-@media screen and (max-width: 481px)}
-.hero-banner4-desc img{
-    right:0%;
-    top:20%;
-    }
+@media screen and (max-width: 481px){
+    .hero-banner4-desc{
+        position:absolute;
+        right:10%;
+        bottom:20%;
+        width:80%;
+        }
 }
-
+.quiz-content{
+    background:url('../images/quiz-square-body.jpg') repeat center center;
+    background-size:100%;
+    padding:10%;
+    /* height:300px; */
+    text-align:center;
+}
+.quiz-title{
+    font-family: guthen;
+}
+.quiz-desc{
+    font-family: gothambook;
+}
 /*!misc*/
