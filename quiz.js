@@ -85,7 +85,7 @@ function get_answer_4(){
     if(wajah1 !== undefined && rambut1 !== undefined){
         var img = '';
         if(wajah[wajah1].rambut[rambut1].src!==undefined){
-            img = '<img src="assets/images/tiperambut/'+wajah[wajah1].rambut[rambut1].src+'" class="responsive-img">';
+            img = '<img src="assets/images/tiperambut/'+wajah[wajah1].rambut[rambut1].src+'" class="responsive-img" width="75%">';
         }
         console.log(img);
         // $('#quiz4').html(img);
