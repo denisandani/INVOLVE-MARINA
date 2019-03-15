@@ -327,22 +327,22 @@ p {
 }
 
 .img-s-6 {
-    margin-left: 25%;
-    margin-top: 12%;
+    margin-left: 28%;
+    margin-top: 8%;
     width: 45%;
 }
 
 .img-s-7 {
-    margin-left: 20%;
+    margin-left: 23%;
     top: 5%;
     width: 55%;
 }
 
 .img-s-8 {
     position: absolute;
-    left: 29%;
+    left: 31%;
     bottom: 0%;
-    width: 40%;
+    width: 37%;
 }
 
 .img-s-9 {
@@ -770,7 +770,8 @@ p {
 @media screen and (min-width: 481px){
 
     .img-testimoni-tangan { 
-        margin-left: 450px;
+        margin-top: -125px;
+        text-align: center;
     }
 
     .img-testimoni-tangan img {
@@ -781,14 +782,14 @@ p {
 
     .bg-testimoni-tangan {
         background-image: url('../images/kotak.png');
-        padding: 105px 30px 30px 30px;
+        padding: 20px 30px 30px 30px;
         border-radius: 10px;
         border-color: black;
         border-style: dashed;
         display: inline-block;
         margin-left: 200px;
         margin-right: 200px;
-        margin-top: -100px;
+        margin-top: 120px;
     }
     
 }
@@ -796,9 +797,8 @@ p {
 @media screen and (max-width: 480px){
 
     .img-testimoni-tangan {
-        position: relative;
-        top: 40px;
-        margin-left: 90px;
+        margin-top: -125px;
+        text-align: center;
     }
 
     .img-testimoni-tangan img {
@@ -807,10 +807,11 @@ p {
     
     .bg-testimoni-tangan {
     background-image: #fff url('../images/kotak.png');
-    padding: 65px 30px 40px 30px;
+    padding: 20px 30px 40px 30px;
     border-radius: 10px;
     border-color: black;
     border-style: dashed;
+    margin-top:125px;
 }
 
 
